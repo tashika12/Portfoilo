@@ -5,37 +5,56 @@
     <meta charset="UTF-8">
     <title>Tashika Agrawal | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Smooth scroll for Hire Me button */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body>
 
+    <!-- Header Section -->
     <header>
         <h1>Tashika Agrawal</h1>
-        <p>Full Stack Developer (HTML & CSS)</p>
+        <p>Full Stack Developer | HTML & CSS | Frontend Enthusiast</p>
         <a href="#contact" class="btn">Hire Me</a>
     </header>
 
-    <section>
+    <!-- Overview / About Me -->
+    <section class="overview">
         <h2>About Me</h2>
         <p>
-            I am Tashika Agrawal, a passionate Full Stack Developer currently doing internship.
-            I build responsive and user-friendly websites using HTML & CSS.
+            I am Tashika Agrawal, a passionate Full Stack Developer currently pursuing an internship.
+            I specialize in building <strong>responsive</strong> and <strong>user-friendly websites</strong> using HTML & CSS.
+            I enjoy turning ideas into visually appealing web pages that deliver a great user experience.
         </p>
+        <ul>
+            <li>Currently working as a Web Development Intern at a tech company</li>
+            <li>Strong knowledge of HTML, CSS, and responsive design</li>
+            <li>Enthusiastic about learning new web technologies and frameworks</li>
+        </ul>
     </section>
 
-    <section>
+    <!-- Skills Section -->
+    <section class="skills">
         <h2>Skills</h2>
-        <div class="skills">
-            <div>HTML</div>
-            <div>CSS</div>
-            <div>Responsive Design</div>
+        <div class="skills-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Responsive Design</div>
+            <div class="skill">Web Layouts</div>
+            <div class="skill">UI Design</div>
         </div>
     </section>
 
-    <section>
+    <!-- Projects Section -->
+    <section class="projects-section">
         <h2>Projects</h2>
         <div class="projects">
 
+            <!-- Kalki Pro -->
             <div class="card">
                 <h3>Kalki Pro – Business Website</h3>
                 <p><strong>Role:</strong> Web Development Intern</p>
@@ -44,10 +63,13 @@
                     Designed and developed responsive pages with clean UI
                     and ensured mobile-friendly layout.
                 </p>
-                <a href="https://kalkipro.in/website/" target="_blank" class="btn">View Live Website</a>
-                <a href="https://github.com/tashika/kalkipro" target="_blank" class="btn">View Code</a>
+                <div class="buttons">
+                    <a href="https://kalkipro.in/website/" target="_blank" class="btn">View Live Website</a>
+                    <a href="https://github.com/tashika/kalkipro" target="_blank" class="btn">View Code</a>
+                </div>
             </div>
 
+            <!-- Uppal Tours -->
             <div class="card">
                 <h3>Uppal Tours – Travel Website</h3>
                 <p><strong>Role:</strong> Frontend Developer</p>
@@ -56,9 +78,12 @@
                     Created a responsive travel website showcasing tour packages,
                     services, and contact information with a modern layout.
                 </p>
-                <a href="https://github.com/tashika/uppaltours" target="_blank" class="btn">View Code</a>
+                <div class="buttons">
+                    <a href="https://github.com/tashika/uppaltours" target="_blank" class="btn">View Code</a>
+                </div>
             </div>
 
+            <!-- Usasaent Enterprises -->
             <div class="card">
                 <h3>Usasaent Enterprises – Corporate Website</h3>
                 <p><strong>Role:</strong> Frontend Developer</p>
@@ -67,9 +92,12 @@
                     Developed a responsive business website with clean layout for services,
                     company info, and contact section.
                 </p>
-                <a href="https://github.com/tashika/usasaent" target="_blank" class="btn">View Code</a>
+                <div class="buttons">
+                    <a href="https://github.com/tashika/usasaent" target="_blank" class="btn">View Code</a>
+                </div>
             </div>
 
+            <!-- OPCW -->
             <div class="card">
                 <h3>OPCW – Online Company Profile</h3>
                 <p><strong>Role:</strong> Frontend Developer</p>
@@ -78,15 +106,20 @@
                     Developed a responsive company profile website, including sections for services,
                     company info, and contact details, with mobile-friendly design.
                 </p>
-                <a href="https://github.com/tashika/opcw" target="_blank" class="btn">View Code</a>
+                <div class="buttons">
+                    <a href="https://github.com/tashika/opcw" target="_blank" class="btn">View Code</a>
+                </div>
             </div>
 
         </div>
     </section>
 
-    <section id="contact">
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
         <h2>Contact Me</h2>
-        <p>Email: tashikaagg879@gmail.com</p>
+        <p>Email: <a href="mailto:tashikaagg879@gmail.com">tashikaagg879@gmail.com</a></p>
+        <p>Phone: <a href="tel:+91-9760767258">+91-9760767258</a></p>
+        <p>GitHub: <a href="https://github.com/tashika" target="_blank">github.com/tashika</a></p>
     </section>
 
 </body>
